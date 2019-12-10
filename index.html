@@ -4,40 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Google Clone</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <section class="header_container">
-            <div class="header_item gmail">Gmail</div>
-            <div class="header_item Imagenes">Imagenés</div>
-            <img class="header_item menu_icon">Menu</img>
-            <img alt="user" class="header_item user" src="./Imagen/usuario.png"> 
-        </section>
+        <nav class="nav_container">
+            <ul class="nav-right-section">
+                <li>
+                    <a href="" class="header_item gmail">Gmail</a>
+                </li>
+                <li>
+                    <a href="" class="header_item Imagenes">Imagenés</a>
+                </li>
+                <li class="menu_icon">
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""> 
+                     <img src="https://lh3.googleusercontent.com/-JBUDqXmmjig/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfZukfYowOOUPPju3iQ7Q7P9v_CEQ.CMID/s64-c/photo.jpg" alt="imagen_user">
+                </a>
+                </li>
+            </ul> 
+        </nav>
     </header>
-        <section class="logo">
-            <img src="" alt="">
+    <main>
+        <section class="main-logo">
+            <img src="./imagen/google-logo-2015.png" alt="">
         </section>
-        <section class="search">
-            <input type="text">
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-icon">
+
+                </span>
+                <input type="text">
+                <a class="micro-icon" href=""></a>
+            </div>
         </section>
-        <section class="botones">
-            <button id="BuscarEnGoogle">Buscador 1</button>
-            <button id="LuckySearch">Buscador 2</button>
+        <section class="main-buttons">
+            <div>
+                <button id="BuscarEnGoogle">Busca en Google</button>
+            </div>
+            <div>
+                <button id="LuckySearch">Me siento con Suerte</button>
+            </div>
         </section>
+    </main>
+
         <footer>
-            <div class="left_footer">
-                <button>Option 1</button>
-                <button>Option 2</button>
-                <button>Option 3</button>
-                <button>Option 4</button>
-            </div>
-            <div class="right_footer">
-                <button>Option 5</button>
-                <button>Option 6</button>
-                <button>Option 7</button>
-            </div>
+            <ul class="footer-left">
+                <li>
+                    <a href="">Publicidad</a>
+                </li>
+                <li>
+                    <a href="">Negocios</a>
+                </li>
+                <li>
+                    <a href="">Acerca de</a>
+                </li>
+                <li>
+                    <a href="">Como funciona</a>
+                </li>
+            </ul>
+            <ul class="footer-right">
+                <li>
+                    <a href="">Privacidad</a>
+                </li>
+                <li>
+                    <a href="">Condiciones</a>
+                </li>
+                <li>
+                    <a href="">Preferencias</a>
+                </li>
+            </ul>
         </footer>
 </body>
 </html>

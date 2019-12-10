@@ -1,32 +1,179 @@
 body{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: -webkit-fill-available;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.header_container {
+header {
+    width: 100%;
+    height: 60px;
+}
+
+.nav_container{
     display: flex;
     justify-content: flex-end;
+}
+
+.nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
     align-items: center;
 }
 
-.header_item {
-    padding: 10px 10px;
+.nav-right-section a{
+    margin-right: 10px ;
+    color: #000000;
 }
 
-.user {
-    max-width: 3%;
-    max-height: 3%;
-    border-radius: 50%;
+.menu_icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
 }
+
+.nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    max-width: 50%;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-logo img {
+    max-width: 70%;
+}
+
+.main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-input-container:hover {
+    box-shadow: 0px 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.main-input-container input {
+    padding-left: 10px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-icon {
+    
+    background-image: url('./imagen/search.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.micro-icon {
+    background-image: url('./imagen/micro.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+.main-buttons div {
+    display: inline-block;
+
+}
+
+.main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.main-buttons button:hover {
+    background-color: rgb(211, 226, 245);
+    box-shadow: 0px 1px 3px #dfe1e5;
+    border: solid 1px #c6c6c6;
+}
+
+
+
 
 
 footer{
-    display: flex;
-    justify-content: space-between;
-    height: 35px;
-    background-color: lightgray;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dfe1e5;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer a{
+    color:#5f6368;
+    margin: 0 10px;
+
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
 }
