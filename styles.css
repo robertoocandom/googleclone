@@ -1,0 +1,32 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: -webkit-fill-available;
+}
+
+.header_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_item {
+    padding: 10px 10px;
+}
+
+.user {
+    max-width: 3%;
+    max-height: 3%;
+    border-radius: 50%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    background-color: lightgray;
+    align-items: center;
+}
