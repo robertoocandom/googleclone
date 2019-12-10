@@ -1,10 +1,10 @@
 # Google Clone
-Clone de Buscador de Google
+Google Search Clone
 
 
-Este proyecto es parte del curso de HTML y CSS de Platzi, de la carrera de Arquitecto Front-End, el objetivo fue replicar
-la Pagina Iniciar del Buscado Google, utilizando diferentes conceptos tanto de HTML como CSS.
+This project is part of the Platzi HTML and CSS course, from the Front-End Architect's career, the objective was to replicate
+the Google Search Start Page, using different concepts of both HTML and CSS.
 
-Para realizar este proyecto en HTML, utilece las etiquetas respetando los elementos gramaticales de la metodologia BEM.
+To carry out this project in HTML, use the tags respecting the grammatical elements of the BEM methodology.
 
-Seguimos avanzando en temas del manejo de CSS y HTML. ;)
+We continue to advance in issues of CSS and HTML management. ;)
